@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: 2px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+#head01{
+    display: flex;
+}
+
+#head02{
+    margin-top: 1.5rem;
+}
+
+#head03{
+    margin-top:1.5rem ;
+}
+
+#head03 a{
+    border: solid 2px white ;
+    padding: 6px;
+    border-radius: 5px 5px 5px;/* top-left-and-bottom-right | top-right-and-bottom-left */
+}
+
+header div h1{
+    margin-top: 0.7rem;
+    margin-left:0.3rem ;
+    color: white;
+}
+
+header div a{
+    text-decoration: none;
+    margin-right: 2rem;
+    color: white;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:10px;
+    margin: 3rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+
